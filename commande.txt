@@ -1,16 +1,16 @@
-✅ Liste COMPLÈTE des commandes vues jusqu’au cours 6
-Base
+✅ Liste COMPLÈTE des commandes vues 
+Base-----------------------------------------------------
 git init
 git status
-Ajouter / commit
+Ajouter / commit-----------------------------------------
 git add fichier
 git add .
 git commit -m "message"
-Historique
+Historique------------------------------------------------
 git log
 git log --oneline
 gitk --all
-Branches
+Branches---------------------------------------------------
 git branch
 git branch nom
 git checkout nom
@@ -18,9 +18,9 @@ git checkout -b nom
 git switch nom
 git switch -c nom
 git switch -
-Fusion
+Fusion-----------------------------------------------------
 git merge nom_branche
-Tags / versions
+Tags / versions---------------------------------------------
 git tag
 git tag NOM
 git tag NOM SHA1
