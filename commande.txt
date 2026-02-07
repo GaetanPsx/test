@@ -1,29 +1,44 @@
 ✅ Liste COMPLÈTE des commandes vues 
-Base-----------------------------------------------------
 git init
 git status
-Ajouter / commit-----------------------------------------
 git add fichier
 git add .
 git commit -m "message"
-Historique-----------------------------------------------
+git commit --amend
 git log
 git log --oneline
+git log --graph
 gitk --all
-Branches-------------------------------------------------
+git diff
+git reflog
 git branch
 git branch nom
+git branch -a
+git branch -d nom
 git checkout nom
 git checkout -b nom
 git switch nom
 git switch -c nom
 git switch -
-Fusion----------------------------------------------------
 git merge nom_branche
-Tags / versions-------------------------------------------
+git merge origin/nom_branche
 git tag
 git tag NOM
 git tag NOM SHA1
+git tag -d NOM
 git checkout NOM_TAG
+git clone url
+git remote
+git remote -v
+git remote add origin url
+git remote remove origin
+git fetch
+git pull
+git pull origin nom_branche
+git push
+git push -u origin nom_branche
+git reset
+git reset --soft HEAD
+git reset --hard HEAD
+git restore
 
-je suis le dev1
